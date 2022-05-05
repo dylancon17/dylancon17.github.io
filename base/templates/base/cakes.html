@@ -1,0 +1,21 @@
+{% extends 'main.html' %}
+
+{% block content %}
+
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'styles/nicepageV2.css' %}" media="screen">
+<link rel="stylesheet" href="{% static 'styles/Cakes.css' %}" media="screen">
+
+<script class="u-script" type="text/javascript" src="{% static 'js/jquery.js' %}" defer=""></script>
+<script class="u-script" type="text/javascript" src="{% static 'js/nicepage.js' %}" defer=""></script>
+
+{% include 'slidingimages.html' %}
+
+
+{% include 'slidinginfo.html' %}
+
+
+{% include 'bottomV2.html' %}
+
+{% endblock content %}
