@@ -52,9 +52,12 @@ class CakesWriting(models.Model):
     Title = models.CharField(max_length=50, null=True)
     Description = models.TextField(null=True, max_length=400)
     Button_link = '{% url "about" %}'
+    Button = models.CharField(max_length=50, null=True, help_text="The upper button")
 
-
-    Button = models.CharField(max_length=50, null=True)
+    background_image = models.ImageField(null=True, default="temp.png", help_text = "For the bottom half of the screen only. May be a struggle to find one you can like that looks good on both computer and mobile. In that case  feel free to upload an image of all one colour.")
+    bottom_half_heading = models.CharField(max_length=50, null=True)
+    bottom_half_small_image = models.ImageField(null=True, default="temp.png", help_text = "Haven't tested it but I have a feeling an image may be too busy. Feel free to insert a white image or a clipart cake image provided it is under a creative commons usage(you can filter that on google) ")
+    bottom_half_text =  models.TextField(null=True, max_length=400, help_text='Please aim for 2-4 sentences')
 
     class Meta:
         verbose_name_plural = "Cakes Page - Text"

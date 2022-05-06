@@ -1,3 +1,8 @@
+.center {
+  margin: 0px auto 0px auto;
+  }
+
+
 .u-section-1 .u-sheet-1 {
   min-height: 500px;
 }.u-section-2 .u-sheet-1 {
@@ -17,7 +22,6 @@
 }.u-section-9 .u-sheet-1 {
   min-height: 500px;
 } .u-section-10 {
-  background-image: url("images/6197-min.jpg");
   min-height: 657px;
   background-position: 50% 50%;
 }
