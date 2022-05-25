@@ -1,5 +1,9 @@
 # Cakes By Jennele
 
+**Check it out!**
+
+cakesbyjennele.ca
+
 **What It Does**
 
 This site is designed with the primary goals of featuring past products and a way for customers to contact the company. It has been designed to provide high flexibility to cakesbyjennele to allow them to make edits and modifications on their side without any technical knowledge or experience.
