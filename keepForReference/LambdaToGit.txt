@@ -1,1 +1,5 @@
-Replace bucket links
+Replace bucket links:
+s3.amazonaws.com/images.cakesbyjennele.ca
+zappatest-static-47953.s3.amazonaws.com
+
+dylancon17.github.io/CakesByJennele
