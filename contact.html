@@ -159,8 +159,17 @@
 
               </form>
 -->
-            <iframe src="form.html" class="container u-form u-form-1" style="height: 450px;" frameBorder="0">
-
+            <div class="container u-form u-form-1">
+              <form class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form"
+              action="https://formspree.io/f/xnqydvnd"
+              method="POST"
+              >
+                  <input placeholder="Name" type="name" name="name" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-white">
+                  <input placeholder="Email" type="email" name="email" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-white">
+                  <textarea placeholder="Your Message" name="message:" rows="4" cols="50" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-white"></textarea>
+                  <button type="submit" onclick="window.location.href='/thankyou';" class="u-border-none u-btn u-btn-round u-button-style u-palette-2-base u-radius-50 u-text-body-alt-color u-btn-1"><div style="white-space: normal;padding: auto;">Submit</div></button>
+              </form>
+            </div>
           </div>
         </div>
 
